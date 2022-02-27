@@ -1,3 +1,6 @@
+* {
+    font-family: sans-serif;
+}    
 body, p, h1, h2 {
     margin: 0px;
     padding: 0px;
@@ -35,7 +38,7 @@ body, p, h1, h2 {
     gap: 20px;
 }
 
-.header .linksList a, .hero p {
+.header .linksList a, .hero .leftHero p {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -45,6 +48,9 @@ body, p, h1, h2 {
 }
 
 .hero .leftHero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     padding: 20px;
     height: 60%;
     width: 30%;
@@ -56,14 +62,18 @@ body, p, h1, h2 {
     font-weight: bolder;
 }
 
+.hero .leftHero p {
+    margin-bottom: 10px;
+}
+
 .hero .rightHero {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40%;
-    width: 30%;
-    background-color: gray;
-    color: #F9FAF8;
+    height: 210px;
+    width: 430px;
+    background-color: rgb(133, 128, 128);
+    color: #f9faf8;
 }
 
 .hero .leftHero button {
@@ -71,5 +81,6 @@ body, p, h1, h2 {
     color: #F9FAF8;
     border-radius: 8px;
     border: 0px;
-    padding: 5px;
+    padding: 5px 20px;
+    font-size: 18px;
 }
