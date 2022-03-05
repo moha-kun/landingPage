@@ -159,3 +159,42 @@ body, p, h1, h2 {
     color: #1f2937;
     align-self: flex-end;
 }
+
+.callToAction {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+}
+
+.callToAction .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40%;
+    width: 70%;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.callToAction .container button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    padding: 5px 30px;
+}
+
+.footer {
+    height: 80px;
+    width: 100%;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
