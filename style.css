@@ -6,16 +6,16 @@ body, p, h1, h2 {
     padding: 0px;
 }
 
-.header, .hero {
-    display: flex;
-    align-items: center;
-    background-color: #1f2937;
-}
-
 .header {
     height: 60px;
     width: 100%;
     justify-content: space-around;
+}
+
+.header, .hero {
+    display: flex;
+    align-items: center;
+    background-color: #1f2937;
 }
 
 .hero {
@@ -59,7 +59,7 @@ body, p, h1, h2 {
 .hero .leftHero h1 {
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: bolder;
+    font-weight: 700;
 }
 
 .hero .leftHero p {
@@ -83,4 +83,79 @@ body, p, h1, h2 {
     border: 0px;
     padding: 5px 20px;
     font-size: 18px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    gap: 50px;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2937;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.container .image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 150px;
+    gap: 10px;
+    text-align: center;
+}
+
+.container .image img {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border: 5px solid rgb(91, 157, 255);
+    border-radius: 12px;
+}
+
+.quotation {
+    height: 400px;
+    width: 100%;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quotation .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.quotation .container .quote {
+    display: block;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    align-self: center;
+}
+
+.quotation .container .say {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #1f2937;
+    align-self: flex-end;
 }
